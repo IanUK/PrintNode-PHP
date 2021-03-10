@@ -1,0 +1,25 @@
+{
+    "name": "chinasearch/printnode-php",
+    "description": "Connect any printer to your application with PrintNode Client and easy to use JSON API",
+    "require": {
+        "php": ">=5.3.2",
+        "ext-curl": "*"
+    },
+    "keywords": [
+        "php",
+        "PrintNode",
+        "API",
+        "printing"
+    ],
+    "homepage": "https://github.com/chinasearch/PrintNode-PHP",
+    "authors": [{
+        "email":    "ian.hogg@chinasearch.co.uk",
+        "name":     "Contributors",
+        "homepage": "https://www.printnode.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "PrintNode\\": "src/PrintNode"
+        }
+    }
+}
